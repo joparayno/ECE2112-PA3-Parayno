@@ -4,7 +4,12 @@ This experiment aims to introduce the Pandas library in Python, focusing on iden
 
 ## Table of Contents
 * [Prerequisites](#Prerequisites)
-[
+* [Getting Started](#Getting-Started)
+* [Instructions](#Instructions)
+* [Problem 1](#Problem-1)
+* [Problem 2](#Problem-2)
+* [Authors](#Authors)
+* [Version History](#Version-History)
 
 ## Prerequisites 
 * Physical server or virtual machine.
@@ -56,7 +61,7 @@ Jarrel Parayno (jarrel.parayno.eng@ust.edu.ph)
 
 ## Version History
 * 0.3
-  *Updated the README.md file
+  * Updated the README.md file
 * 0.2
   * Updated the README.md file
 * 0.1
