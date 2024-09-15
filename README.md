@@ -127,7 +127,7 @@ The code above enabled me to identify the cylinder of the car model ‘Camaro Z2
 cars[['Model', 'cyl', 'gear']][cars['Model'].isin(['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic'])]
 ```
 
-The code above allowed me to determine the number of cylinders and the type of gear the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’, and ‘Honda Civic’ have. This resulted in the output displayed below.
+With the help of the .isin function, I was able to filter and select specific data within the data frame. This enabled me to determine the number of cylinders and the type of gear the car models ‘Mazda RX4 Wag’, ‘Ford Pantera L’, and ‘Honda Civic’ have. The resulting output is displayed below.
 
 ![Screenshot 2024-09-15 at 11 48 29 PM](https://github.com/user-attachments/assets/d4f3d7fd-5c9c-423f-ba5f-d3b4c5d683ea)
 
