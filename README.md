@@ -56,7 +56,53 @@ http://bit.ly/Cars_file
 
 ## Problem 1
 
+To successfully complete this problem, I used the knowledge gained from previous experiments and demonstrations.
+
+a. Load the corresponding .csv file into a data frame named cars using pandas.
+
+```
+import pandas as pd
+cars = pd.read_csv("Cars data.csv")
+cars
+```
+The code above enabled me to import and read the data from the ‘Cars data.csv’ file, resulting in the following data.
+
+![Screenshot 2024-09-15 at 11 05 57 PM](https://github.com/user-attachments/assets/41c0eae8-b1f1-4a1f-9f73-d27af61c56ce)
+
+b. Display the first five and last five rows of the resulting cars.
+
+```
+FirstFive = cars.head()
+LastFive = cars.tail()
+
+Table = [FirstFive, LastFive]
+
+result = pd.concat(Table)
+
+print("The First and Last Five:")
+
+result
+```
+The code above allowed me to retrieve the first five and last five rows of data from the ‘Cars data.csv’ file.
+
+![Screenshot 2024-09-15 at 11 10 05 PM](https://github.com/user-attachments/assets/bd889877-f5de-496f-98e3-2665dcd3d0f5)
+
 ## Problem 2
+
+To extract the necessary information from the dataframe presented in Problem 1, I will employ a combination of subsetting, slicing, and indexing techniques.
+
+a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7…) of cars.
+
+```
+cars[0:10] [1::2]
+```
+
+b. Display the row that contains the ‘Model’ of ‘Mazda RX4’.
+
+c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
+
+d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4
+Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
 
 ## Authors
 Jarrel Parayno (jarrel.parayno.eng@ust.edu.ph)
