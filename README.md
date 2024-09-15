@@ -79,8 +79,6 @@ Table = [FirstFive, LastFive]
 
 result = pd.concat(Table)
 
-print("The First and Last Five:")
-
 result
 ```
 The code above allowed me to retrieve the first five and last five rows of data from the ‘Cars data.csv’ file.
@@ -117,7 +115,7 @@ The code above enabled me to display the row that contains the Model of Mazda RX
 cars.loc[cars['Model'] == 'Camaro Z28', ['Model', 'cyl']]
 ```
 
-The code above enabled me to identify the cylinder of the car model ‘Camaro Z28’, resulting in the output displayed below.
+The code above enabled me to filter rows in the cars DataFrame where the car model 'Camaro Z28', and then selects only the 'Model' and 'cyl'. The resulting output is displayed below.
 
 ![Screenshot 2024-09-15 at 11 48 13 PM](https://github.com/user-attachments/assets/f7ebb04c-30aa-4ea1-af3f-eb495c71fec4)
 
@@ -137,7 +135,7 @@ Jarrel Parayno (jarrel.parayno.eng@ust.edu.ph)
 ## Version History
 * 0.5
   * Updated the README.md file
-  * 
+  * Uploaded the ipynb and py files
 * 0.4
   * Updated the README.md file
 * 0.3
