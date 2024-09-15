@@ -5,7 +5,7 @@ This experiment aims to introduce the Pandas library in Python, focusing on iden
 ## Table of Contents
 * [Prerequisites](#Prerequisites)
 * [Getting Started](#Getting-Started)
-* [Instructions](#Instructions)
+* [Experiment 3](#Experiment-3)
 * [Problem 1](#Problem-1)
 * [Problem 2](#Problem-2)
 * [Authors](#Authors)
@@ -47,7 +47,9 @@ You must first install Anaconda Navigator from https://www.anaconda.com/download
 6. source the .bash-rc file to add Anaconda to your PATH
 7. Start the Python REPL
 
-## Instructions
+## Experiment 3
+
+### Instructions:
 Write a Python script/code in the Jupyter Notebook to do the given problems. You may submit your Jupyter notebook in the dedicated submission bin.
 For this programming assignment, download the following file and save to your default user folder:
 http://bit.ly/Cars_file
@@ -60,6 +62,9 @@ http://bit.ly/Cars_file
 Jarrel Parayno (jarrel.parayno.eng@ust.edu.ph)
 
 ## Version History
+* 0.4
+  * Updated the README.md file
+  * 
 * 0.3
   * Updated the README.md file
 * 0.2
