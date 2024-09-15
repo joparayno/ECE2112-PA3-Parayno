@@ -85,7 +85,7 @@ result
 ```
 The code above allowed me to retrieve the first five and last five rows of data from the ‘Cars data.csv’ file.
 
-![Screenshot 2024-09-15 at 11 10 05 PM](https://github.com/user-attachments/assets/bd889877-f5de-496f-98e3-2665dcd3d0f5)
+![Screenshot 2024-09-16 at 12 03 31 AM](https://github.com/user-attachments/assets/f3eb5014-bf16-43ed-a5b8-c417e06f24f1)
 
 ## Problem 2
 
