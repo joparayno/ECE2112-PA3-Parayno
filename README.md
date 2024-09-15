@@ -2,6 +2,10 @@
 
 This experiment aims to introduce the Pandas library in Python, focusing on identifying the codes and functions incorporated within the Pandas library. By the end, the students will be able to be proficient in applying and utilizing the various codes and functions within a Python program, utilizing the Pandas library.
 
+## Table of Contents
+* [Prerequisites](#Prerequisites)
+[
+
 ## Prerequisites 
 * Physical server or virtual machine.
 * CPU: 2 x 64-bit, 2.8 GHz, 8.00 GT/s CPUs or better.
@@ -51,7 +55,8 @@ http://bit.ly/Cars_file
 Jarrel Parayno (jarrel.parayno.eng@ust.edu.ph)
 
 ## Version History
-
+* 0.3
+  *Updated the README.md file
 * 0.2
   * Updated the README.md file
 * 0.1
