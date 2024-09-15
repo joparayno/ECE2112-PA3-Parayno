@@ -97,20 +97,42 @@ a. Display the first five rows with odd-numbered columns (columns 1, 3, 5, 7…)
 cars[0:10] [1::2]
 ```
 
+![Screenshot 2024-09-15 at 11 47 26 PM](https://github.com/user-attachments/assets/203f5c62-bf6b-4893-a384-0da96f77d59b)
+
 b. Display the row that contains the ‘Model’ of ‘Mazda RX4’.
+
+```
+cars.loc[cars['Model'] == 'Mazda RX4']
+```
+
+![Screenshot 2024-09-15 at 11 47 26 PM](https://github.com/user-attachments/assets/203f5c62-bf6b-4893-a384-0da96f77d59b)
 
 c. How many cylinders (‘cyl’) does the car model ‘Camaro Z28’ have?
 
+```
+cars.loc[cars['Model'] == 'Camaro Z28', ['Model', 'cyl']]
+```
+
+![Screenshot 2024-09-15 at 11 48 13 PM](https://github.com/user-attachments/assets/f7ebb04c-30aa-4ea1-af3f-eb495c71fec4)
+
 d. Determine how many cylinders (‘cyl’) and what gear type (‘gear’) do the car models ‘Mazda RX4
 Wag’, ‘Ford Pantera L’ and ‘Honda Civic’ have.
+
+```
+cars[['Model', 'cyl', 'gear']][cars['Model'].isin(['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic'])]
+```
+
+![Screenshot 2024-09-15 at 11 48 29 PM](https://github.com/user-attachments/assets/d4f3d7fd-5c9c-423f-ba5f-d3b4c5d683ea)
 
 ## Authors
 Jarrel Parayno (jarrel.parayno.eng@ust.edu.ph)
 
 ## Version History
-* 0.4
+* 0.5
   * Updated the README.md file
   * 
+* 0.4
+  * Updated the README.md file
 * 0.3
   * Updated the README.md file
 * 0.2
